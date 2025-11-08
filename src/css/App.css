@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background: #fafafa;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 70px;
+  transition: margin-left 0.3s ease;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 60px;
+    padding: 1rem;
+  }
+}
