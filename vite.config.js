@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/pages/zallen33/CS-6440-Final-Project/',
   build: {
-    outDir: 'docs'
+    outDir: 'dist'
   }
 })
