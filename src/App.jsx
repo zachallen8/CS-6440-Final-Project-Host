@@ -9,7 +9,7 @@ import './css/App.css'
 
 function App() {
   return (
-    <Router basename="/pages/zallen33/CS-6440-Final-Project">
+    <Router>
       <div className="app-container">
         <Sidebar />
         <main className="main-content">
